@@ -1,0 +1,10 @@
+SET(SOURCES screens/ui_SM_Screen.c
+    screens/ui_SP_ScreenPower.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    fonts/ui_font_Font20.c
+    fonts/ui_font_Font40.c)
+
+add_library(ui ${SOURCES})
