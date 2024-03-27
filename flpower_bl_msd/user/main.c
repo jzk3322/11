@@ -36,6 +36,8 @@ int main(void)
                         
                         break;
                     }
+                    
+                    Delay_Ms(2000);
                     board_usb_config(); //ÖØÐÂÃ¶¾Ù
                 }
                 fat_event.change = 0;
